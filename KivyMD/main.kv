@@ -1,0 +1,32 @@
+MDScreen:
+    name: "main"
+    MDFloatLayout:
+        md_bg_color: 1,1,1,1
+        Image:
+            source: "assets/login1.png"
+            size_hint: .8, .8
+            pos_hint: {"center_x": .5, "center_y": 0.7}
+    MDLabel:
+        text: "L o g i n"
+        font_name: "Roboto"
+        font_size: "23sp"
+        post_hint: {"center_y": .38}
+        halign: "center"
+        color: rgba(34, 34, 34,255)
+    Button:
+        text: "LOGIN"
+        pos_hint: {"center_x": .5, "center_y": .18}
+        size_hint: .66, .065
+        background_colour: 0, 0, 0, 0
+        font_name: "Roboto"
+        on_release:
+            root.manager.transition.direction = "left"
+            root.manager.current = "login"
+        canvas.before:
+            Color:
+                rgb: rgba(52, 0, 231, 255)
+            RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [5]
+                
