@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978154308203",
+    "project_id": "noparkfb",
+    "storage_bucket": "noparkfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978154308203:android:4bd2e0e222bcbee680272e",
+        "android_client_info": {
+          "package_name": "com.tugasakhiriot.nopark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978154308203-s9ho3ps5ltssunch5glm409nk6ervgv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCjdTfiI1Ouj22BJmpYkhvMC7hTJWWCto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978154308203-s9ho3ps5ltssunch5glm409nk6ervgv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
